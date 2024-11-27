@@ -1,0 +1,71 @@
+
+@media only screen and (max-width: 400px) {
+  .button {
+    flex-direction: column;
+    #new-quote{
+      margin-bottom: 5px;
+    }
+  }
+}
+
+
+.App {
+  text-align: center;
+
+  #quote-box {
+    background-color: bisque;
+    color: #282c34;
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    margin: 0 auto;
+    border: none;
+
+    #text {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+    #author {
+      text-align: left;
+      padding: 5px;
+    }
+  
+  
+  }
+
+
+ 
+  
+
+  .button {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 20px;
+    color: bisque;
+    border: none;
+
+    #new-quote {
+      border: none;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+}
+
+
+
+
